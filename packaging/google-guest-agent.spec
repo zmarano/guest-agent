@@ -29,7 +29,7 @@ BuildArch: %{_arch}
 BuildRequires: systemd
 %endif
 
-Obsoletes: python-google-compute-engine, python3-google-compute-engine
+Conflicts: python-google-compute-engine, python3-google-compute-engine
 
 %description
 Contains the Google guest agent binary.
